@@ -11,8 +11,8 @@
                 result.forEach(value => {
                     rows.innerHTML += `
                     <div class="col-lg-3 col-md-4 col-sm-6" style="margin-top: 200px !important;">
-                    <div class="card" style="overflow: scroll; box-sizing: border-box; height: 100%;">
                     <h1 class="card-title" style="text-transform: capitalize;font-family: playfair display;font-style: italic;margin-bottom: 20px !important;">${value.coast}</h1>
+                    <div class="card" style="overflow: scroll; box-sizing: border-box; height: 100%;">
                         <img src="${value.images}" class="card-img-top" alt="..." style="height: 200px;">
                         <div class="card-body">
                           <h5 class="card-title" style="font-family: playfair display;">${value.title}</h5>
